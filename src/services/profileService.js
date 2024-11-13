@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { getToken } from './authService';
 
-const API_URL = 'http://localhost:8030/api/users/profile';
+const API_URL = 'https://oscowl-todo-application-backend-w61t.onrender.com/api/users/profile';
 
 const config = {
   headers: { Authorization: `Bearer ${getToken()}` },
