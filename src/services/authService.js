@@ -1,7 +1,7 @@
 // authService.js
 import axios from 'axios';
 
-'https://oscowl-todo-application-backend-w61t.onrender.com/api/auth';
+const API_URL = 'https://oscowl-todo-application-backend-w61t.onrender.com/api/auth';
 
 export const register = async (userData) => {
   const response = await axios.post(`${API_URL}/register`, userData);
